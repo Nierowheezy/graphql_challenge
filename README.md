@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This is a graphql react app that uses rickandmortyapi to render a list of character
+## This is a graphql react app that uses rickandmortyapi to render a list of character
 
 ## Improvements
 
