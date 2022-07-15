@@ -57,7 +57,6 @@ ul {
   height: 36px;
   border: 1px solid #00b4cc;
   background: #005e6b;
-
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -76,4 +75,24 @@ ul {
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
+}
+
+.sortButton {
+  margin-top: 10px;
+  width: 140px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #005e6b;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.sort_filter {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
