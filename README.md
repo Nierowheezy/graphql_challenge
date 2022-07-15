@@ -1,11 +1,10 @@
-## This is a graphql react app that uses rickandmortyapi to render a list of character
+## This is a graphql react app that uses node graphql api to render a list of songs
 
 ## Improvements
 
-- Filtering:
-- Proper Search Functionality
-- View Individual Charaters
 - Sorting
+- pagination
+- refactoring code base, making reusable components
 
 ### `npm start to run app`
 

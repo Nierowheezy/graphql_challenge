@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.fa-times {
+  cursor: pointer;
+  color: red;
+}
+
+/****search input styles****/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.wrap {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #005e6b;
+
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.filterButton {
+  margin-top: 10px;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #005e6b;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
