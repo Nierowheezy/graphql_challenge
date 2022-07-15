@@ -5,6 +5,7 @@
 - Sorting
 - pagination
 - refactoring code base, making reusable components
+- making it responsive
 
 ### `npm start to run app`
 
